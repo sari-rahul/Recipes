@@ -1,10 +1,22 @@
 .Logo{
-    font-family: 'Margarine';
     font-size: 35px;
     color: rgb(243, 63, 93);
 }
+.Navbar{
+    background-color:rgb(242, 51, 83) !important;
+    padding: 15px;
+    
+}
+.Navlink{
+    color: rgb(247, 231, 231) !important;
+    font-size: 20px;
+}
 
-
+.NavOuterContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
 @media screen and (max-width: 500px) {
     .Logo{
         font-size: 25px;
