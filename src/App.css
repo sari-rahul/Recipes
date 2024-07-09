@@ -1,7 +1,5 @@
-h1{
-    font-family: 'Margarine';
-}
-h2{
-    font-family: 'Great Vibes';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-}
+
