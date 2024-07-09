@@ -1,0 +1,13 @@
+.Logo{
+    font-family: 'Margarine';
+    font-size: 35px;
+    color: rgb(243, 63, 93);
+}
+
+
+@media screen and (max-width: 500px) {
+    .Logo{
+        font-size: 25px;
+    }
+    
+}

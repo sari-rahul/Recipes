@@ -4,16 +4,18 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider,} from "react-router-dom";
 
 import Root from './components/Root';
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/dashboard/Dashboard';
+import NavBar from './components/navbar/NavBar';
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root />}>
-      <Route path="/dashboard" element={<Dashboard />} />
-      {/* ... etc. */}
-    </Route>
+    <>
+    <Route path="/" element={<Root />} />
+    <Route path="/dashboard" element={<Dashboard />}/>
+    
+    </>  
   )
 );
 
