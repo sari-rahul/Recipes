@@ -10,8 +10,9 @@ const NavBar = () => {
       <Navbar expand="lg" className={`${styles.Navbar} bg-body-tertiary`} >
         <Container className={`w-50`}>        
             <Nav className={styles.NavOuterContainer}>
-              <Nav.Link href="#home" className={`${styles.Navlink}`}>Home</Nav.Link>
-              <Nav.Link href="#about" className={`${styles.Navlink}`}>About Us</Nav.Link>
+              <Nav.Link href="/dashboard" className={`${styles.Navlink}`}>Home</Nav.Link>
+              <Nav.Link href="/about" className={`${styles.Navlink}`}>About Us</Nav.Link>
+              <Nav.Link href="/savedrecipes" className={`${styles.Navlink}`}>Saved Recipes</Nav.Link>
             </Nav>
         </Container>
       </Navbar>
