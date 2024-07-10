@@ -1,6 +1,6 @@
 import React from 'react';
-import HeaderImage from '../../assets/recipes-bandimage.jpeg';
-import styles from './ImageBand.module.css';
+import HeaderImage from '../assets/recipes-bandimage.jpeg';
+import styles from '../styles/ImageBand.module.css';
 
 const ImageBand = () => {
   return (

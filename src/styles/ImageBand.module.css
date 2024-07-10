@@ -1,6 +1,6 @@
 .ImageBandContainer{
     width:100%;
-    height:50vh !important;   
+    height:30vh !important;   
     overflow: hidden;
 
 }
@@ -13,5 +13,5 @@
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5); 
-    height:50vh !important;
+    height:30vh !important;
   }

@@ -1,6 +1,8 @@
 import React from 'react';
-import NavBar from '../components/navbar/NavBar.js';
-import ImageBand from '../components/image-band/ImageBand.js';
+import NavBar from '../components/NavBar.js';
+import ImageBand from '../components/ImageBand.js';
+import RecipeList from '../components/RecipeList.js';
+import Search from '../components/Search.js';
 
 const Dashboard = () => {
   return (
@@ -8,8 +10,8 @@ const Dashboard = () => {
      <ImageBand/> 
      <NavBar/>
      <div className="mx-0 px-0 w-full">
-
-      Dashboard
+     <Search/>
+     <RecipeList/>
     </div>
     </>
   )

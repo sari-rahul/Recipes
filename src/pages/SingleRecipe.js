@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../components/navbar/NavBar';
+import NavBar from '../components/NavBar';
 import styles from '../styles/SingleRecipe.module.css';
 
 const SingleRecipe = () => {
